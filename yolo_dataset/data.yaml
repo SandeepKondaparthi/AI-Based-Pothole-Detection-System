@@ -1,0 +1,6 @@
+path: c:/Users/Admin/React/AI-Based-Road-Damage-Pothole-Detection-System-main/yolo_dataset
+train: images/train
+val: images/val
+
+names:
+  0: pothole

@@ -1,0 +1,25 @@
+[MASTER]
+ignore=CVS,.venv,venv,tests
+load-plugins=pylint.extensions.docparams
+
+[MESSAGES CONTROL]
+# Disable some common overly-strict rules for initial audit
+disable=
+    C0114, # missing-module-docstring
+    C0115, # missing-class-docstring
+    C0116, # missing-function-docstring
+    R0903, # too-few-public-methods
+    W0511, # fixme
+    E1101, # no-member - overly aggressive with MongoDB and Pydantic
+
+[FORMAT]
+max-line-length=120
+
+[TYPECHECK]
+# Ignore dynamic members for MongoDB and Settings
+ignored-modules=motor,pydantic,cv2
+ignored-classes=AsyncIOMotorDatabase,AsyncIOMotorCollection,Settings
+
+[REPORTS]
+output-format=text
+reports=yes
