@@ -182,12 +182,10 @@ RoadCare/
 ---
 
 
-## 🌍 Real-World Applications
+## Real-World Applications
 
 - **Municipal Road Maintenance** - Automated inspection reports
 - **Smart Cities** - Real-time road quality monitoring
 - **Insurance Claims** - Objective damage documentation
 - **Urban Planning** - Infrastructure assessment data
 - **Fleet Management** - Route optimization
-
----
